@@ -11,8 +11,6 @@ intents.messages = True
 @tree.command(
     name="hello",
     description="just simple hello command",
-    guild=discord.Object(id=1042652024598167552)
-
 )
 async def hello(interaction: discord.Interaction):
     await interaction.response.send_message(f"sup {interaction.user.mention}")
@@ -21,7 +19,6 @@ async def hello(interaction: discord.Interaction):
 @tree.command(
     name="ping",
     description="Displays the bot's latency in milliseconds",
-    guild=discord.Object(id=1042652024598167552)
 )
 async def ping(interaction: discord.Interaction):
     latency = client.latency * 1000  # to ms
@@ -37,7 +34,6 @@ async def ping(interaction: discord.Interaction):
 @tree.command(    #tree comands its like slash command (very hard to code)
     name="embed",
     description="Creates embeds (admin only)",
-    guild=discord.Object(id=1042652024598167552)
 )
 async def embed(interaction: discord.Interaction, title: str, description: str,color:  str):
     color = discord.Color.from_str(color)
@@ -49,7 +45,6 @@ async def embed(interaction: discord.Interaction, title: str, description: str,c
 @tree.command(
     name="pfp",
     description="display other pfp",
-    guild=discord.Object(id=1042652024598167552)
 
 )
 async def pfp(interaction: discord.Interaction, member: discord.Member = None):
