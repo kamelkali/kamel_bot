@@ -58,4 +58,4 @@ async def on_ready():
     print("Launched", datetime.datetime.now())
     print('------------------------------')
 
-client.run('MTI3NTEwODIzNDA1MDQwODU4NA.GXv0Zk.GWf9IUcrXHZCD7CfC1YKJDklgHmvs-FTqwOmgs')
+client.run('')
