@@ -6,8 +6,8 @@ LumaBOT 2.0 is continuation of my previous bot LumaBot, but LumaBot was a based 
 I had a Youtube auth errors, so i gave up project
 ## How its look ?
 
-![1](1.png)
-![2](2.png)
+![1](1.webp)
+![2](2.webp)
 
 ## Authors
 
